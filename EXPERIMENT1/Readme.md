@@ -22,4 +22,40 @@ System.out.println( "Default value of boolean: " + obj.bool);
 # output
 ```
 <img width="182" height="88" alt="1a output" src="https://github.com/user-attachments/assets/72ba4e6b-3203-4169-8090-5f18f34665dc" />
+# Experiment1
+## TITLE:1b.)quadratic  equation
+```
+import java.util.Scanner;
+class QuadraticRoots {
+public static void main (String[l args) {
+double a, b, c, d; double rootl, root2;
+Scanner sc = new Scanner (System.in);
+System.out.print("Enter a, b and c values: ");
+a = sc.nextDouble();
+b = sc. nextDouble();
+c = sc.nextDouble ();
+d = b*b -4*a* c;
+System.out.println ("Discriminant (D) = " + d);
+if (d > 0){
+oot1 = (-b + Math.sqrt(d)) .
+00€2 = (-D - Math.sart (d)) / (2 * a)
+System.out.println("Roots are real and distinct");
+System.out.println("Root1 = " + I00t1);
+System.out.printin ("Root2 = " + root2) ;
+}
+else if (d == 0) {
+root1 = -b / (2 * a);
+System.out.println("Roots are real and equal");
+System.out.println("Root = " + I0ot1);
+}
+else {
+System.out.println("Roots are imaginary");
+}
+sc.close();
+}
+}
+# output
+```
+<img width="186" height="69" alt="1B OUTPUT" src="https://github.com/user-attachments/assets/cd0d473e-a9fb-4925-83b5-63fe5cbcec6f" />
+
 
