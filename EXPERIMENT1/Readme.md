@@ -22,8 +22,9 @@ System.out.println( "Default value of boolean: " + obj.bool);
 # output
 ```
 <img width="182" height="88" alt="1a output" src="https://github.com/user-attachments/assets/72ba4e6b-3203-4169-8090-5f18f34665dc" />
+
 # Experiment1
-## TITLE:1b.)quadratic  equation
+## TITLE:1b.)quadratic equation
 ```
 import java.util.Scanner;
 class QuadraticRoots {
