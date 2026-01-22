@@ -17,5 +17,5 @@ System.out.println("sum: " + result);
 }
 ```
 # output
-![output of class mechanism in java](2a.output.png)
+![output of screenshot](2a.output.png)
 
