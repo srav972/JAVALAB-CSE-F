@@ -18,6 +18,19 @@ class Student {
 		System.out.println("marks: "+marks);
 	}
 }
+
+ class Main {
+
+	public static void main(String args[]) {
+
+		Student std = new Student();
+		std.display();
+
+		Student std1 = new Student("Hari", 40, 67.8);
+		std1.display();
+
+	}
+}
 ```
 # output
 <img width="372" height="218" alt="3a output" src="https://github.com/user-attachments/assets/dfcea307-39e6-4401-882d-108d65399ea6" />
